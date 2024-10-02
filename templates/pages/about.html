@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}About{% endblock title %}
+
+{% block content %}
+<head>
+
+</head>
+<body>
+    <h1 style="font-weight: bolder; padding-bottom: 20px;">About Us</h1>
+        <div style="height: 100%; margin-bottom: 200px; border-radius: 20px; border-color: yellow; border-style: double; background-image: radial-gradient(circle, #bddff6, #a2c7dd, #87b0c4, #6d99ab, #538393, #3f798d, #296e87, #006482, #00628d, #005e98, #0059a0, #1152a6);">
+            <h2>Our Story</h2>
+            <p style="font-size: larger;">Founded in 2024, iMeditate emerged from a deep passion for promoting mental wellness through the transformative practice of meditation. Our journey began when we recognized the growing need for tools that support emotional and psychological health in an increasingly hectic world. With a mission to make meditation accessible and engaging for everyone, we strive to break down barriers to practice, providing resources, workshops, and community support. We believe that by fostering a culture of mindfulness, we can empower individuals to lead more balanced, fulfilling lives. Our commitment is to not only share the benefits of meditation but to inspire a global movement that values inner peace and emotional well-being as essential components of a healthy society.</p>
+            <div style="display: flex; flex-direction: column;"         class="container">
+                <img src="{% static 'img/home.jpeg' %}" style="border-radius: 20px; margin: auto;">
+            </div>
+        </div>
+    <div class="container" style="-ms-flex-align: center;">
+    </div>
+    
+    
+
+{% endblock content %}
